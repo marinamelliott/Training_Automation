@@ -1,0 +1,9 @@
+DEFAULT: &default
+  EMAIL_ADDRESS: <%= "abc" + Random.rand(9999).to_s + "@gmail.com"  %>
+  FIRST_NAME: "John"
+  LAST_NAME: "Doe"
+  CREATE_PASSWORD: "Password1"
+
+FEMALE_CUSTOMER:
+  <<: *default
+  FIRST_NAME: "Jane"

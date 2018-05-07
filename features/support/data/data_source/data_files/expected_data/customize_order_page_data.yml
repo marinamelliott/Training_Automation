@@ -1,0 +1,9 @@
+SELECT_LISTS:
+  ADD_CHIPS_LIST: "Add Chips | BBQ Jimmy Chips® - $1.40 | Jalapeño Jimmy Chips® - $1.40 | Thinny Jimmy Chips® - $1.40 | Regular Jimmy Chips® - $1.40 | Salt & Vinegar Jimmy Chips® - $1.40"
+
+DEFAULTS:
+  SELECT_BREAD_LIST: "French Bread"
+  ADD_DRINK_LIST: "Add Drink"
+  ADD_CHIPS_LIST: "Add Chips"
+  ADD_COOKIE_LIST: "Add Cookie"
+  ADD_PICKLE_LIST: "Add Pickle"

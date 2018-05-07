@@ -1,0 +1,12 @@
+DEFAULT: &happy_path
+  ORDER_NAME: "Test User"
+  SELECT_BREAD_LIST: "9-Grain Wheat Bread Sliced"
+  ADD_DRINK_LIST: "Lemonade (30oz) - $2.09"
+  ADD_CHIPS_LIST: "BBQ Jimmy Chips® - $1.40"
+  ADD_COOKIE_LIST: "Chocolate Chunk Cookie - $1.75"
+  ADD_PICKLE_LIST: "Pickle (Halved) - $1.40"
+
+MARINA:
+  <<: *happy_path
+  ORDER_NAME: "Marina"
+

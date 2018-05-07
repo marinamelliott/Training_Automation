@@ -1,0 +1,9 @@
+PRACTICE: &default
+  A_TEXT_FIELD: <%= Time.warp(:days => 10).strftime("%m/%d/%Y") %>
+  RADIO_BUTTON: "b"
+  GOODBYE: "check"
+  DROP_DOWN_LIST: "OptionC"
+
+ANOTHER_DATA_KEY:
+  <<: *default
+  DROP_DOWN_LIST: "OptionB"

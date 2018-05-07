@@ -1,0 +1,4 @@
+default: --format pretty
+run: --format pretty --tags @run
+regression: --format pretty --tags @regression
+
