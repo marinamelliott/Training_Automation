@@ -1,6 +1,6 @@
 Feature: Training Examples
 
-  @TC-12345 @jj @regression
+  @TC-12345 @jj @regression @run
   Scenario: Customer can make a customized order
     Given the user navigates to the JJ website
     And the user fills the jimmy johns page with Kforce
@@ -8,14 +8,13 @@ Feature: Training Examples
     And the application navigates to the verify address page
     And the user clicks the verify address button
     And the application navigates to the order menu page
-    And the user clicks the sub sandwiches button
+    When the user clicks the classics button
     And the user clicks the turkey tom button
     And the application navigates to the customize order page
     And the user fills the customize order page with Marina
-    And the user views the page
     And the user clicks the add to order button
+    Then the user views the page
     And the application navigates to the review order page
-    And the user views the page again
 
   @TC-12345 @jj @regression @off_hours
   Scenario: Verify store closed pop-up - off hours
@@ -36,7 +35,7 @@ Feature: Training Examples
     And the application navigates to the verify address page
     And the user clicks the verify address button
     And the application navigates to the order menu page
-    And the user clicks the sub sandwiches button
+    And the user clicks the classics button
     And the user clicks the turkey tom button
     And the application navigates to the customize order page
     And the select list values for add chips list are correct
@@ -49,7 +48,7 @@ Feature: Training Examples
     And the application navigates to the verify address page
     And the user clicks the verify address button
     And the application navigates to the order menu page
-    And the user clicks the sub sandwiches button
+    And the user clicks the classics button
     And the user clicks the turkey tom button
     And the application navigates to the customize order page
     And the field values are correct for defaults
@@ -62,7 +61,7 @@ Feature: Training Examples
     And the application navigates to the verify address page
     And the user clicks the verify address button
     And the application navigates to the order menu page
-    And the user clicks the sub sandwiches button
+    And the user clicks the clasics button
     And the user clicks the turkey tom button
     And the application navigates to the customize order page
     And the user fills in "Marina" for order name
@@ -92,7 +91,7 @@ Feature: Training Examples
     And the application navigates to the verify address page
     And the user clicks the verify address button
     And the application navigates to the order menu page
-    And the user clicks the sub sandwiches button
+    And the user clicks the classics button
     And the user clicks the turkey tom button
     And the application navigates to the customize order page
     And the user fills the customize order page with Marina

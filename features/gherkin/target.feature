@@ -9,7 +9,6 @@ Feature: Training Examples
     And the user views the page again
     And the user clicks the keurig elite button
 
-
   @TC-12345 @target @regression
   Scenario: Potential customer can navigate to the womens clothing page
     Given the user navigates to the Target website
@@ -39,7 +38,7 @@ Feature: Training Examples
     And the user views the page again
     And the user clicks the juniors clothing button
 
-  @TC-12345 @target @regression @run
+  @TC-12345 @target @regression
   Scenario: Potential customer can navigate to the juniors clothing page
     Given the user navigates to the Target website
     And the user clicks the my account button

@@ -2,7 +2,7 @@ class OrderMenuPage < SBDPage
   div(:store_closed_pop_up, :id => "popup_container")
   button(:reschedule_order_yes_button, :id => "btnConfirmationYes")
   button(:reschedule_order_cancel_button, :id => "btnConfirmationNo")
-  span(:sub_sandwiches_button, :text => '8" Sub Sandwiches')
+  span(:classics_button, :text => 'CLASSICS')
   link(:turkey_tom_button, :href => "#/additem/3691")
 
   # Name: form_field_order
